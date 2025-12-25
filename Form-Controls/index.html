@@ -13,7 +13,7 @@
     </header>
     <main>
       <form>
-        <section>
+        <fieldset>
           <h2>Contact Information:</h2>
           <p>
             <label for="name">Name:</label>
@@ -21,22 +21,24 @@
           </p>
           <p>
             <label for="email">Email:</label>
-            <input type="email" id="email" required>
+            <input type="email" id="email" placeholder="example@email.com" required>
           </p> 
-        </section>
-        <section>
+        </fieldset>
+        <fieldset>
           <h2>Product details:</h2>
               <p>             
                 <label for="color">Choose a color:</label>
-                <select type="color" id="color" name="color" required>
-                  <option value="blue">blue</option>
+                <select id="color" name="color" required>
+                  <option value="select color">Select a color</option>
+                  <option value="blue" >blue</option>
                   <option value="pink">pink</option>
                   <option value="green">green</option>
                 </select>
               </p>
               <p>
                 <label for="size">Size:</label>
-                <select name="size" id="size" required >
+                <select name="size" id="size" required>
+                  <option value="select size">Select a size</option>
                   <option value="XS">XS</option>
                   <option value="S">S</option>
                   <option value="M">M</option>
@@ -45,9 +47,9 @@
                   <option value="XXL">XXL</option>
                 </select>
               </p>    
-        </section>
+        </fieldset>
         
-
+      <button type="submit">Submit</button>
         <!-- 
           try writing out the requirements first as comments
         this will also help you fill in your PR message later-->
@@ -55,7 +57,7 @@
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>Daniela Fajardo</h2>
     </footer>
   </body>
 </html>
