@@ -79,7 +79,7 @@ Setting the rules for how elements are placed in the article.
 Now laying out just the INSIDE of the repeated card/article design.
 Keeping things orderly and separate is the key to good, simple CSS.
 */
-article {
+section {
   border: var(--line);
   padding-bottom: var(--space);
   text-align: left;
